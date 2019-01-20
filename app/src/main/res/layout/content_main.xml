@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="7dp"
+        android:layout_x="38dp"
+        android:layout_y="0dp"
+        android:text="UF Ride Board!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="244dp"
+        android:layout_marginRight="244dp"
+        android:layout_marginBottom="-303dp"
+        android:layout_x="49dp"
+        android:layout_y="453dp"
+        android:text="Find"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="-372dp"
+        android:layout_x="206dp"
+        android:layout_y="456dp"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="360dp"
+        android:layout_x="56dp"
+        android:layout_y="96dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginBottom="292dp"
+        android:layout_x="55dp"
+        android:layout_y="164dp"
+        android:ems="10"
+        android:hint="Source"
+        android:inputType="textPersonName"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="223dp"
+        android:layout_x="56dp"
+        android:layout_y="229dp"
+        android:ems="10"
+        android:hint="Destination"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="357dp"
+        android:layout_x="62dp"
+        android:layout_y="366dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:selectAllOnFocus="true"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="165dp"
+        android:layout_x="58dp"
+        android:layout_y="301dp"
+        android:ems="10"
+        android:hint="Date of Journey"
+        android:inputType="date"
+        android:selectAllOnFocus="true"
+        android:textStyle="italic" />
+
+</AbsoluteLayout>
